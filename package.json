@@ -1,0 +1,36 @@
+{
+  "name": "url-shortener",
+  "version": "1.0.0",
+  "description": "A URL shortener is a simple tool that takes a long URL and turns it into a very short one",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanSilva41/urlshortener.git"
+  },
+  "keywords": [
+    "url",
+    "shortener",
+    "link",
+    "utility"
+  ],
+  "author": "Danilo Silva",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DanSilva41/urlshortener/issues"
+  },
+  "homepage": "https://github.com/DanSilva41/urlshortener#readme",
+  "scripts": {
+    "start": "node -r dotenv/config ./bin/www",
+    "dev": "npx nodemon -r dotenv/config ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^10.0.0",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "sequelize": "^7.0.0-alpha.2",
+    "sqlite3": "^5.0.2"
+  }
+}
