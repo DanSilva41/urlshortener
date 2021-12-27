@@ -25,11 +25,11 @@
 </p>
 
 <p align="center">
-  <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-como-contribuir">Como contribuir</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#arrow_forward-como-rodar">Como rodar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-licença">Licença</a>
+  <a href="#rocket-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-how-to-contribute">How to contribute</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#arrow_forward-how-to-run">How to run</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-license">License</a>
 </p>
 
 <br>
@@ -38,43 +38,43 @@
   <img alt="URL Shortener" src="docs/url-shortener.png" width="80%">
 </p>
 
-## :rocket: Tecnologias
+## :rocket: Technologies
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+This project was developed with the following technologies:
 
 - [Node.js](https://nodejs.org/en/)
 - [Javascript](https://www.javascript.com/)
 - [Express](https://expressjs.com/)
 - [SQLite](https://www.sqlite.org/index.html)
 
-## 💻 Projeto
+## 💻 Project
 
-Esse projeto é uma API REST desenvolvida, com [Node.js](https://nodejs.org/en/) e [Javascript](https://www.javascript.com/). O intuito foi criar um serviço que inicialmente recebe como parâmetro uma URL que deverá ser encurtada.
+This project is a REST API developed, with [Node.js](https://nodejs.org/en/) and [Javascript](https://www.javascript.com/). The intention was to create a service that initially receives as a parameter a URL that should be shortened.
 
-A url retornada deve ser salva no banco de dados e possuir um contador para o número de vezes que é utilizada, deve fazer o redirecionamento para a url salva no banco. Nesse projeto usei o [SQLite](https://www.sqlite.org/index.html) como banco de dados.
+The returned url must be saved in the database and have a counter for the number of times it is used, it must redirect to the url saved in the database. In this project I used the [SQLite](https://www.sqlite.org/index.html) as a database.
 
-## 🤔 Como contribuir
+## 🤔 How to contribute
 
-- Adicione uma :star: estrela nesse projeto :smile:;
-- Faça um fork desse repositório;
-- Cria uma branch com a sua feature: `git checkout -b minha-feature`;
-- Faça commit das suas alterações: `git commit -m 'feat: Minha nova feature'`;
-- Faça push para a sua branch: `git push origin minha-feature`.
+- Add a :star: star in this project :smile:;
+- Fork this repository;
+- Create a branch with your feature: `git checkout -b my-feature`;
+- Commit your changes: `git commit -m 'feat: My new feature'`;
+- Push to your branch: `git push origin my-feature`.
 
-Depois que o merge da sua pull request for feito, você pode deletar a sua branch.
+Once your pull request has been merged, you can delete your branch.
 
-## :arrow_forward: Como rodar
+## :arrow_forward: How to run
 
-- No seu terminal, rode o comando para instalar as dependências do projeto: `npm i`;
-- Crie uma cópia do arquivo **.env.example** com o nome **.env** (na raiz) e defina suas variáveis de ambiente;
-- Rode o comando para iniciar o servidor (em modo desenvolvimento): `npm run dev`;
+- On your terminal, run the command to install the project's dependencies: `npm i`;
+- Create a copy of the file **.env.example** with the name **.env** (at the root) and set your environment variables;
+- Run the command to start the server (in development mode): `npm run dev`;
 
-Se tudo ocorrer bem, a aplicação vai estar disponível em: **http://localhost:3000**.
+If all goes well, the application will be available at: **http://localhost:3000**.
 
-## :memo: Licença
+## :memo: License
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+This project is under the MIT license. See the file [LICENSE](LICENSE.md) for more details.
 
 ---
 
-Feito com ♥ by [Danilo Silva](https://github.com/DanSilva41). Me adicione no [LinkedIn](https://www.linkedin.com/in/danilosilvap/) :wave:
+Made with ♥ by [Danilo Silva](https://github.com/DanSilva41). Add me to [LinkedIn](https://www.linkedin.com/in/danilosilvap/) :wave:
