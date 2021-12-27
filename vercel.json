@@ -1,0 +1,15 @@
+{
+    "version": 2,
+    "functions": {
+        "app.js": {
+            "runtime": "@vercel/node@1.10.0",
+            "includeFiles": "**"
+        }
+    },
+    "routes": [
+        {
+            "src": "(.*)",
+            "dest": "app.js"
+        }
+    ]
+}
